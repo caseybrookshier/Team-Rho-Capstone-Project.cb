@@ -1,109 +1,100 @@
-Predicting Health Service Utilization with Google Trends
-Team Rho
+# Predicting Mental Health Service Utilization with Google Trends
 
-Course: DSE6311 Capstone Project
+**Team:** Team Rho
+**Authors:** Casey Brookshier, Brendan Collari
+**Tools:** Python, Jupyter Notebook, pandas, scikit-learn, XGBoost, SHAP
 
-Team Members
+---
 
-Casey Brookshier 
-Brendan Collari 
-Project Overview
+## 📌 Project Overview
 
-The objective of this project is to investigate whether Google search activity can be used as a leading indicator of future mental health service utilization within the United States.
+This project investigates whether Google Trends search activity can predict future state-level mental health service utilization.
 
-Specifically, this project seeks to answer the following research question:
+Google search terms are grouped into thematic categories (e.g., symptoms, treatment, substance use, financial stress) and evaluated as leading indicators of mental health service demand one year in advance.
 
-Which categories of Google search activity provide the most accurate leading indicators of state-level mental health service utilization one year later?
+---
 
-Rather than evaluating individual search terms alone, this project groups related Google searches into broader thematic categories (e.g., symptoms, treatment, financial stress, and substance use) and evaluates their predictive ability using statistical and machine learning models.
+## 🧠 Analytical Focus Areas
 
-Objectives
-Collect state-level Google Trends search data.
-Obtain historical mental health utilization data from SAMHSA.
-Incorporate provider capacity and demographic variables from HRSA Area Health Resource Files.
-Develop baseline and machine learning prediction models.
-Compare model performance using standard evaluation metrics.
-Identify which Google search categories are the strongest predictors of future mental health service utilization.
-Data Sources
-Google Trends
+* Google Trends search categories
+* Mental health service utilization
+* State-level forecasting
+* Feature importance analysis
+* Predictive modeling
 
-Measures public interest in mental health-related search categories.
+---
 
-https://trends.google.com/trends
+## 📊 Data Sources
 
-SAMHSA MH-CLD (Mental Health Client-Level Data)
+* Google Trends
+* SAMHSA MH-CLD
+* HRSA Area Health Resource Files (AHRF)
 
-Provides mental health service utilization data.
+---
 
-https://www.samhsa.gov/data/data-we-collect/mh-cld-mental-health-client-level-data/datafiles/2013-2024
+## 🤖 Modeling Approach
 
-HRSA Area Health Resource Files (AHRF)
+* Multiple Linear Regression (baseline)
+* Random Forest
+* XGBoost
+* SHAP feature importance
 
-Provides healthcare workforce, provider capacity, and demographic information.
+Models are evaluated using RMSE, MAE, and R².
 
-https://data.hrsa.gov/topics/health-workforce/nchwa/ahrf
+---
 
-Methodology
+## 📁 Repository Structure
 
-The analysis will be conducted using a state-year dataset created by merging Google Trends, MH-CLD, and AHRF data.
-
-The target variable is state-level mental health utilization rate:
-
-Utilization Rate = (Mental Health Clients / State Population) × 100,000
-
-Google Trends search terms will be grouped into thematic categories, aggregated by state and year, and lagged so that search activity during year t predicts utilization during year t + 1.
-
-Model development will include:
-
-Multiple Linear Regression (baseline model)
-Random Forest
-XGBoost
-Feature importance analysis using SHAP values
-
-Model performance will be evaluated using:
-
-RMSE (Root Mean Squared Error)
-MAE (Mean Absolute Error)
-R² (Coefficient of Determination)
-Repository Structure
+```text
 Team-Rho-Capstone-Project/
-
+│
 ├── data/
 │   ├── raw/
 │   └── processed/
 │
 ├── notebooks/
-│
 ├── src/
-│
 ├── figures/
-│
 ├── reports/
-│
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-Software
+```
 
-The project is developed primarily in Python using Jupyter Notebooks.
+---
 
-Major packages include:
+## 🚀 Skills Demonstrated
 
-pandas
-NumPy
-Pytrends
-scikit-learn
-statsmodels
-XGBoost
-LightGBM
-SHAP
-matplotlib
-seaborn
-Plotly
-MLflow
+* Data acquisition
+* Data cleaning and preprocessing
+* Feature engineering
+* Predictive modeling
+* Machine learning
+* Model evaluation
+* Explainable AI (SHAP)
+* Data visualization
 
-Google Colab may be used for additional computational resources during model training.
+---
 
-Expected Outcomes
+## 💡 Project Goal
 
-This project will evaluate whether Google search behavior provides reliable leading indicators of future mental health service utilization. If successful, the results may help healthcare organizations and policymakers improve staffing, planning, and resource allocation through earlier identification of changing service demand.
+Identify which categories of Google search activity provide the strongest leading indicators of future mental health service utilization, enabling more informed healthcare planning and resource allocation.
+
+---
+
+## 🚀 Technologies
+
+* Python
+* Jupyter Notebook
+* pandas
+* NumPy
+* Pytrends
+* scikit-learn
+* statsmodels
+* XGBoost
+* LightGBM
+* SHAP
+* matplotlib
+* seaborn
+* Plotly
+* MLflow
