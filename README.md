@@ -1,45 +1,71 @@
-# Predicting Mental Health Service Utilization with Google Trends
+# Predicting State-Level Inpatient Psychiatric Admissions with Google Trends
 
-**Team:** Team Rho
-**Authors:** Casey Brookshier, Brendan Collari
-**Tools:** Python, Jupyter Notebook, pandas, scikit-learn, XGBoost, SHAP
+**Team:** Team Rho  
+**Authors:** J. Casey Brookshier, Brendan Collari  
+**Tools:** Python, Jupyter Notebook, pandas, scikit-learn, XGBoost, SHAP  
 
 ---
 
 ## 📌 Project Overview
 
-This project investigates whether Google Trends search activity can predict future state-level mental health service utilization.
+This project evaluates whether suicide- and crisis-related Google Trends search activity can predict future state-level inpatient psychiatric admissions.
 
-Google search terms are grouped into thematic categories (e.g., symptoms, treatment, substance use, financial stress) and evaluated as leading indicators of mental health service demand one year in advance.
+The primary research question is:
+
+> Which suicide- and crisis-related Google search terms provide the most accurate leading indicators of state-level inpatient psychiatric admissions one year later?
+
+The project combines online search behavior, healthcare utilization, healthcare capacity, and population data to improve prediction of future mental health service demand.
 
 ---
 
 ## 🧠 Analytical Focus Areas
 
-* Google Trends search categories
-* Mental health service utilization
-* State-level forecasting
-* Feature importance analysis
-* Predictive modeling
+- Suicide and crisis-related Google Trends indicators
+- State-level inpatient psychiatric utilization forecasting
+- Healthcare capacity adjustment
+- Population-normalized admission rates
+- Predictive modeling and feature importance analysis
 
 ---
 
 ## 📊 Data Sources
 
-* Google Trends
-* SAMHSA MH-CLD
-* HRSA Area Health Resource Files (AHRF)
+- **Google Trends**
+  - State-level search interest for terms such as:
+    - "suicidal thoughts"
+    - "suicide hotline"
+    - "self harm"
+    - "suicide prevention"
+
+- **SAMHSA Mental Health Client-Level Data (MH-CLD)**
+  - Mental health service utilization measures
+
+- **HRSA Area Health Resource Files (AHRF)**
+  - Mental healthcare workforce and system capacity variables
+
+- **U.S. Census Bureau Population Estimates**
+  - State population normalization for admission rate calculations
 
 ---
 
 ## 🤖 Modeling Approach
 
-* Multiple Linear Regression (baseline)
-* Random Forest
-* XGBoost
-* SHAP feature importance
+Predictive models evaluate whether lagged Google Trends features improve one-year forecasts of inpatient psychiatric admissions.
 
-Models are evaluated using RMSE, MAE, and R².
+Models include:
+
+- Multiple Linear Regression (baseline)
+- Random Forest
+- XGBoost
+- PCA (feature reduction)
+- Hierarchical clustering (state similarity analysis)
+- SHAP feature importance
+
+Performance metrics:
+
+- RMSE
+- MAE
+- R²
 
 ---
 
@@ -59,42 +85,3 @@ Team-Rho-Capstone-Project/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-```
-
----
-
-## 🚀 Skills Demonstrated
-
-* Data acquisition
-* Data cleaning and preprocessing
-* Feature engineering
-* Predictive modeling
-* Machine learning
-* Model evaluation
-* Explainable AI (SHAP)
-* Data visualization
-
----
-
-## 💡 Project Goal
-
-Identify which categories of Google search activity provide the strongest leading indicators of future mental health service utilization, enabling more informed healthcare planning and resource allocation.
-
----
-
-## 🚀 Technologies
-
-* Python
-* Jupyter Notebook
-* pandas
-* NumPy
-* Pytrends
-* scikit-learn
-* statsmodels
-* XGBoost
-* LightGBM
-* SHAP
-* matplotlib
-* seaborn
-* Plotly
-* MLflow
