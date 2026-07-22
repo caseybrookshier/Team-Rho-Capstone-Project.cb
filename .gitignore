@@ -1,9 +1,6 @@
 
-# Large files
-AHRF_SN_2024-2025_CSV.zip
-MH-CLD-2013-2024-DS0001-bndl-data-csv_v1.zip
-ahrfsn2025.csv
-mhcld_puf_20132024.csv
+# Raw data files
+data/raw/
 
 # macOS files
 .DS_Store
