@@ -1,4 +1,4 @@
-# Predicting State-Level Inpatient Psychiatric Admissions with Google Trends
+# Predicting State-Level Inpatient Suicide-Related Admissions with Google Trends
 
 **Team:** Team Rho  
 **Authors:** J. Casey Brookshier, Brendan Collari  
@@ -37,11 +37,8 @@ The project combines online search behavior, healthcare utilization, healthcare 
     - "self harm"
     - "suicide prevention"
 
-- **SAMHSA Mental Health Client-Level Data (MH-CLD)**
-  - Mental health service utilization measures
-
-- **HRSA Area Health Resource Files (AHRF)**
-  - Mental healthcare workforce and system capacity variables
+-**HCUP Data (Healthcare Utilization Outcome)**
+   - Retrieve state-level Mental Health/Substance Use inpatient admission data.
 
 - **U.S. Census Bureau Population Estimates**
   - State population normalization for admission rate calculations
@@ -50,7 +47,7 @@ The project combines online search behavior, healthcare utilization, healthcare 
 
 ## 🤖 Modeling Approach
 
-Predictive models evaluate whether lagged Google Trends features improve one-year forecasts of inpatient psychiatric admissions.
+Predictive models evaluate whether lagged Google Trends features improve one-year forecasts of suicide-related inpatient  admissions.
 
 Models include:
 
