@@ -1,0 +1,9 @@
+Outcome Evaluated,Predictor,Mean Search Interest,Std Dev Search Interest,Correlation with Future Admission Rate,Direction of Association
+Future Psychiatric Admission Rate,suicidal thoughts,38.57,24.53,-0.057,Negative
+Future Psychiatric Admission Rate,suicide hotline,36.55,19.31,-0.108,Negative
+Future Psychiatric Admission Rate,self harm,43.82,21.53,0.048,Positive
+Future Psychiatric Admission Rate,mental health crisis,16.69,20.78,-0.157,Negative
+Future Psychiatric Admission Rate,suicide prevention,25.07,10.3,-0.115,Negative
+Future Psychiatric Admission Rate,crisis hotline,24.04,24.54,-0.156,Negative
+Future Psychiatric Admission Rate,psychiatric hospital,44.76,28.62,-0.006,Negative
+Future Psychiatric Admission Rate,depression help,51.06,22.21,0.012,Positive

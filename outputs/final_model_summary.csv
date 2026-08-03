@@ -1,0 +1,7 @@
+,0
+Best RMSE Model,XGBoost
+Best RMSE,55.69630555742987
+Best R2,0.8112296884166057
+Training Observations,362
+Testing Observations,88
+Features,54

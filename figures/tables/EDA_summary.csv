@@ -1,0 +1,5 @@
+Metric,Value
+Observations,452
+States,46
+Year Range,2014-2023
+Variables,"State, Year, state_population, mental_health_admissions, admission_rate_per_100k, suicidal thoughts_lag1, suicide hotline_lag1, self harm_lag1, mental health crisis_lag1, suicide prevention_lag1, crisis hotline_lag1, psychiatric hospital_lag1, depression help_lag1"

@@ -1,0 +1,55 @@
+Feature,Importance
+State_Rhode Island,0.09688
+State_New York,0.09533095
+State_Missouri,0.09467645
+State_California,0.06797285
+State_Washington,0.03542763
+state_population,0.03281564
+State_Georgia,0.029699825
+State_West Virginia,0.028416283
+State_Arkansas,0.027989233
+State_Delaware,0.027020551
+crisis hotline_lag1,0.026806602
+State_Illinois,0.026294816
+State_Arizona,0.02623112
+State_Texas,0.025222521
+State_Oregon,0.024508111
+State_South Dakota,0.023759352
+State_Colorado,0.02113687
+State_Minnesota,0.018978626
+State_Hawaii,0.018460287
+State_South Carolina,0.018176723
+State_Iowa,0.017660784
+State_Oklahoma,0.014907435
+State_Nevada,0.014855355
+psychiatric hospital_lag1,0.01449255
+State_Louisiana,0.014400523
+State_Mississippi,0.011476138
+State_Maryland,0.011268117
+State_Massachusetts,0.010301144
+State_Florida,0.009836759
+State_Tennessee,0.009651852
+State_New Mexico,0.0085915895
+suicide prevention_lag1,0.0082873795
+mental health crisis_lag1,0.007834255
+State_Michigan,0.0074383607
+State_Kentucky,0.0067687393
+State_North Dakota,0.006632675
+depression help_lag1,0.0066252467
+State_Utah,0.0051356717
+self harm_lag1,0.0050530112
+State_North Carolina,0.0041337716
+State_Ohio,0.0039394205
+suicide hotline_lag1,0.0038956474
+State_Maine,0.003819622
+State_New Jersey,0.0034946224
+State_Virginia,0.003189818
+State_Montana,0.002974003
+suicidal thoughts_lag1,0.0029081616
+State_Nebraska,0.0027340755
+State_Wisconsin,0.002733865
+State_Kansas,0.002316444
+State_Indiana,0.0022546353
+State_Wyoming,0.0021929513
+State_Vermont,0.0012368016
+State_Pennsylvania,0.0011541727

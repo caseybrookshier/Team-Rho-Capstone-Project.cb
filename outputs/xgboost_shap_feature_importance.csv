@@ -1,0 +1,55 @@
+Feature,Mean Absolute SHAP
+state_population,20.104036
+psychiatric hospital_lag1,16.388771
+mental health crisis_lag1,16.012594
+crisis hotline_lag1,15.734704
+State_Rhode Island,14.833912
+State_Missouri,13.353574
+State_Washington,6.118912
+State_Delaware,6.0002365
+State_West Virginia,5.8609924
+State_New York,5.61483
+depression help_lag1,5.004013
+State_Arkansas,4.868733
+State_Arizona,4.830322
+State_Minnesota,4.7729397
+State_Georgia,4.7304835
+State_South Carolina,4.697202
+suicide hotline_lag1,4.6903315
+State_Oregon,4.654515
+State_Oklahoma,4.6063213
+suicide prevention_lag1,4.558763
+State_South Dakota,4.079785
+State_Colorado,3.9571447
+State_Hawaii,3.5665293
+self harm_lag1,3.4269347
+suicidal thoughts_lag1,3.3064253
+State_Illinois,2.9214454
+State_Maryland,2.5071495
+State_Massachusetts,2.4733746
+State_Mississippi,2.4408445
+State_Iowa,2.4225569
+State_Louisiana,2.0637674
+State_North Dakota,1.8813629
+State_Tennessee,1.8638774
+State_Nevada,1.8180641
+State_New Mexico,1.7349864
+State_Michigan,1.394718
+State_Texas,1.302339
+State_Kentucky,1.0347412
+State_New Jersey,0.3763282
+State_Maine,0.36282977
+State_Ohio,0.35297677
+State_Virginia,0.24748796
+State_Nebraska,0.23015757
+State_Wisconsin,0.22140385
+State_Indiana,0.13719164
+State_Florida,0.08380724
+State_California,0.078453
+State_North Carolina,0.07107503
+State_Utah,0.058849815
+State_Kansas,0.028855624
+State_Montana,0.016450828
+State_Pennsylvania,0.01564134
+State_Wyoming,0.01342972
+State_Vermont,0.013102588

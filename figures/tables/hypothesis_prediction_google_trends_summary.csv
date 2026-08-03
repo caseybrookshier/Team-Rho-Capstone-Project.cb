@@ -1,0 +1,9 @@
+Predictor,Mean Search Interest,Std Dev Search Interest,Correlation with Future Admission Rate,Direction of Association
+suicidal thoughts,38.57,24.53,-0.057,Negative
+suicide hotline,36.55,19.31,-0.108,Negative
+self harm,43.82,21.53,0.048,Positive
+mental health crisis,16.69,20.78,-0.157,Negative
+suicide prevention,25.07,10.3,-0.115,Negative
+crisis hotline,24.04,24.54,-0.156,Negative
+psychiatric hospital,44.76,28.62,-0.006,Negative
+depression help,51.06,22.21,0.012,Positive
